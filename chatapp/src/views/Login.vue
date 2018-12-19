@@ -1,14 +1,13 @@
 
 <template>
     <div>
-        <h3>Please log in with your Google account to continue</h3>
-        <button @click="login">Login with Google</button>
+        <button @click="login" class='login_button'>Login with Google</button>
     </div>
 </template>
 
 <script>
     import firebase from 'firebase';
-    
+
     export default {
 
 
@@ -39,3 +38,22 @@
         }
     }
 </script>
+
+<style scoped=''>
+
+    div {
+        background: #F7F7F8;
+        height: 100vh;
+        width: 100vw;
+    }
+    .login_button{
+        background: #05728f;
+        height: 36px;
+        width: 15%;
+        border-radius: 5px;
+        color: white;
+        box-shadow: 1px 1px 1px lightgray;
+        margin-top: 60px;
+        margin-right: 1%;
+    }
+</style>

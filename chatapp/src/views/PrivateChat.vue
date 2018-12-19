@@ -287,7 +287,7 @@ img{ max-width:100%;}
 }
 
  .sent_msg p {
-  background: #646464 none repeat scroll 0 0;
+  background: dodgerblue none repeat scroll 0 0;
   border-radius: 3px;
   font-size: 14px;
   margin: 0; color:#fff;
