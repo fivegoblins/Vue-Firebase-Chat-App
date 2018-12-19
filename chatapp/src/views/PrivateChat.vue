@@ -21,9 +21,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Toby<span class="chat_date">Dec 19</span></h5>
+                  <p>Hi mom it's me Toby!! Doggo ipsum porgo yapper ur givin me a spook.</p>
                 </div>
               </div>
             </div>
@@ -31,9 +30,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Laika<span class="chat_date">Dec 19</span></h5>
+                  <p>Space is so cool! Doggo ipsum porgo yapper ur givin me a spook.</p>
                 </div>
               </div>
             </div>
@@ -41,9 +39,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Spot<span class="chat_date">Dec 18</span></h5>
+                  <p>Do you see me running??? Doggo ipsum porgo yapper ur givin me a spook.</p>
                 </div>
               </div>
             </div>
@@ -51,9 +48,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Fido<span class="chat_date">Dec 18</span></h5>
+                  <p>My name is Latin lol Doggo ipsum porgo yapper ur givin me a spook.</p>
                 </div>
               </div>
             </div>
@@ -61,9 +57,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Lassie<span class="chat_date">Dec 18</span></h5>
+                  <p>Timmy's stuck in the well! Doggo ipsum porgo yapper ur givin me a spook.</p>
                 </div>
               </div>
             </div>
@@ -71,9 +66,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Air Bud<span class="chat_date">Dec 18</span></h5>
+                  <p>I just really love basketball. Doggo ipsum porgo yapper ur givin me a spook.</p>
                 </div>
               </div>
             </div>
@@ -81,9 +75,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Old Yeller<span class="chat_date">Dec 17</span></h5>
+                  <p>I think I have rabies :( Doggo ipsum porgo yapper ur givin me a spook.</p>
                 </div>
               </div>
             </div>
@@ -223,7 +216,7 @@ img{ max-width:100%;}
 .headind_srch{ padding:10px 29px 10px 20px; overflow:hidden; border-bottom:1px solid #c4c4c4;}
 
 .recent_heading h4 {
-  color: #05728f;
+  color: dodgerblue;
   font-size: 21px;
   margin: auto;
 }
@@ -320,7 +313,7 @@ img{ max-width:100%;}
 
 .type_msg {border-top: 1px solid #c4c4c4;position: relative;}
 .msg_send_btn {
-  background: #05728f none repeat scroll 0 0;
+  background: dodgerblue none repeat scroll 0 0;
   border: medium none;
   border-radius: 50%;
   color: #fff;
