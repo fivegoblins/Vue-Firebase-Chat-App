@@ -92,8 +92,7 @@
         <div class="mesgs">
           <div class="msg_history">
             <div v-for='message in messages' class="incoming_msg">
-              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-              <div class="received_msg">
+              <div :class="[message.author===authUser.displayName? 'sent_msg':'received_msg']">
                 <div class="received_withd_msg">
                   <p>{{message.message}}</p>
                   <span class="time_date">{{message.author}}</span></div>
@@ -129,11 +128,19 @@ export default {
   },
 
   methods: {
+
+      scrollToBottom(){
+        let box = document.querySelector('.msg-history');
+        box.scrollTop = box.scrollHeight;
+      },
+
       saveMessage(){
           db.collection('chat').add({
               message: this.message,
               author: this.authUser.displayName,
               createdAt: new Date()
+          }).then(()=>{
+            this.scrollToBottom();
           })
 
           this.message = null
@@ -147,6 +154,9 @@ export default {
               })
 
               this.messages = allMessages;
+              setTimeout(()=>{
+                this.scrollToBottom();
+              }, 1000);
           })
       }
   },
@@ -249,7 +259,9 @@ img{ max-width:100%;}
   padding: 0 0 0 10px;
   vertical-align: top;
   width: 92%;
+  background:#707070;
  }
+
  .received_withd_msg p {
   background: #ebebeb none repeat scroll 0 0;
   border-radius: 3px;
@@ -265,7 +277,9 @@ img{ max-width:100%;}
   font-size: 12px;
   margin: 8px 0 0;
 }
-.received_withd_msg { width: 57%;}
+.received_withd_msg { 
+  width: 57%;
+}
 .mesgs {
   float: left;
   padding: 30px 15px 0 25px;
@@ -273,7 +287,7 @@ img{ max-width:100%;}
 }
 
  .sent_msg p {
-  background: #05728f none repeat scroll 0 0;
+  background: #646464 none repeat scroll 0 0;
   border-radius: 3px;
   font-size: 14px;
   margin: 0; color:#fff;
