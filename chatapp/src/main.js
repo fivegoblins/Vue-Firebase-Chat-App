@@ -6,7 +6,7 @@ import store from './store'
 import firebase from 'firebase';
 
 require("firebase/firestore");
-var config = {
+const config = {
   apiKey: "AIzaSyBXCz231LQOx24va2UVj9qAflZcvZgQNEE",
   authDomain: "chat-app-6e338.firebaseapp.com",
   databaseURL: "https://chat-app-6e338.firebaseio.com",
@@ -17,7 +17,7 @@ var config = {
 firebase.initializeApp(config);
 
 // Initialize Cloud Firestore through Firebase
-var db = firebase.firestore();
+const db = firebase.firestore();
 
 window.db = db;
 
