@@ -47,7 +47,7 @@
         width: 100vw;
     }
     .login_button{
-        background: #05728f;
+        background: dodgerblue;
         height: 36px;
         width: 15%;
         border-radius: 5px;
@@ -55,5 +55,6 @@
         box-shadow: 1px 1px 1px lightgray;
         margin-top: 60px;
         margin-right: 1%;
+        cursor: pointer;
     }
 </style>
