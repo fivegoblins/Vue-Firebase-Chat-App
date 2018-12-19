@@ -188,13 +188,18 @@ export default {
 
 
 <style scoped=''>
-    .container{max-width:1270px; margin:auto; background: #f7f7f8; width: 100vw;}
+    .container{max-width:1260px; margin:auto; background: #f7f7f8; width: 100vw;}
 img{ max-width:100%;}
 .inbox_people {
   background: #f8f8f8 none repeat scroll 0 0;
   float: left;
   overflow: hidden;
   width: 40%; border-right:1px solid #c4c4c4;
+}
+
+.messaging {
+  width: 90%;
+  margin-left: 5%;
 }
 
 .text-center {
