@@ -95,7 +95,7 @@
           <div class="type_msg">
             <div class="input_msg_write">
               <input @keyup.enter='saveMessage' v-model='message' type="text" class="write_msg" placeholder="Type a message" />
-              <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+              <button @click='saveMessage' class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
             </div>
           </div>
         </div>
@@ -261,8 +261,7 @@ img{ max-width:100%;}
   display: inline-block;
   padding: 0 0 0 10px;
   vertical-align: top;
-  width: 92%;
-  background:#707070;
+  width: 70%;
  }
 
  .received_withd_msg p {
