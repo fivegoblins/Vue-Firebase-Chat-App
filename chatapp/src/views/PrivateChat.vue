@@ -96,7 +96,7 @@
               <div class="received_msg">
                 <div class="received_withd_msg">
                   <p>{{message.message}}</p>
-                  <span class="time_date"> 11:01 AM    |    June 9</span></div>
+                  <span class="time_date">{{message.author}}</span></div>
               </div>
             </div>
           </div>
@@ -123,7 +123,8 @@ export default {
   data() {
       return {
           message: null,
-          messages: []
+          messages: [],
+          authUser: {}
       }
   },
 
@@ -131,6 +132,7 @@ export default {
       saveMessage(){
           db.collection('chat').add({
               message: this.message,
+              author: this.authUser.displayName,
               createdAt: new Date()
           })
 
@@ -150,6 +152,13 @@ export default {
   },
 
   created(){
+      firebase.auth().onAuthStateChanged(user=>{
+        if(user){
+          this.authUser=user;
+        } else {
+          this.authUser={}
+        }
+      })
       this.fetchMessages();
   },
 
